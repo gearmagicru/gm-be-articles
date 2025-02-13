@@ -1,0 +1,25 @@
+<?php
+/**
+ * Страница "Панель материала".
+ * 
+ * Русская локализации.
+ * 
+ * Этот файл является частью модуля веб-приложения GearMagic.
+ * 
+ * @copyright Copyright (c) 2015 Веб-студия GearMagic
+ * @license https://gearmagic.ru/license/
+ */
+?>
+<article>
+    <h1>Панель материала</h1>
+    <div class="g-help-screen g-help-screen--hidable">
+        <img src="<?= $assetsUrl, '/help/desk.png' ?>" />
+    </div>
+    <p>Панель содержит типы материалов (виды статей) сайта (добавляются с помощью справочника (<a href="<?= $url('index', 'extension:gm.be.references.articles') ?>">"Типы материалов"</a>). Каждому типу материала соответствуют записи со своим набором полей.</p>
+
+    <h2>Панель инструментов</h2>
+    <ul class="g-help-list">
+        <li><img class="g-help-icon" src="<?= $themeUrl, '/assets/icons/svg/basic/refresh.svg' ?>" /> <b>Обновить.</b> Обновляет элементы Панели материалов;</li>
+        <li><img class="g-help-icon" src="<?= $themeUrl, '/assets/icons/svg/basic/help.svg' ?>" /> <b>Справка.</b> Вызывает окно справочной информации.</li>
+    </ul>
+</article>

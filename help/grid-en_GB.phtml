@@ -1,0 +1,49 @@
+<?php
+/**
+ * Страница "Список записей материала".
+ * 
+ * Английская (британская) локализация.
+ * 
+ * Этот файл является частью модуля веб-приложения GearMagic.
+ * 
+ * @copyright Copyright (c) 2015 Веб-студия GearMagic
+ * @license https://gearmagic.ru/license/
+ */
+?>
+<article>
+    <h1>List of site materials</h1>
+    <div class="g-help-screen g-help-screen--hidable">
+        <img src="<?= $assetsUrl, '/help/grid.png' ?>" />
+    </div>
+    <p>The list show all available material records. The list interface is displayed depending on the material type (see References / Material Types) and may have a different number of columns.</p>
+    <h2>List columns</h2>
+    <ul class="g-help-list">
+        <li><b>Publication date.</b> The date of publication of the material in the current user's time zone. If the time zone for the current user is not specified, the default time zone is applied (see "Configuration / Regional settings");</li>
+        <li><b>Index.</b> The index number of the material entry in the list. Used to order entries in the list on the site page;</li>
+        <li><b>Header.</b> Header of the material (article) on the website page;</li>
+        <li><b>Category.</b> Category to which the material belongs;</li>
+        <li><b>Slug.</b> This is the name version, the unique part of the URL. It is all lowercase and only Latin letters, numbers and hyphens;</li>
+        <li><b>Type slug.</b> Defines the rules for forming the URL of the material;</li>
+        <li><b>Language.</b> The language that determines the content of the material. If not specified, the content of the material will be displayed regardless of the selected language;</li>
+        <li><b>Template.</b> Material content display template.</li>
+        <li><b>Template page.</b> Template for displaying material on a page.</li>
+        <li><b>Hits.</b> Number of visits (hits) by users of the page with the material;</li>
+        <li><b>Published.</b> Publication sets the visibility of the material page on the site;</li>
+        <li><b>Cached.</b> Indicates whether caching is applied to the content.;</li>
+        <li><b>Indexing.</b> Shows whether the material is accessible to search robots and what indexing directives are used.</li>
+    </ul>
+
+    <h2>Toolbar</h2>
+    <ul class="g-help-list">
+        <li><img class="g-help-icon" src="<?= $assetsUrl, '/images/icon-add.svg' ?>" /> <b>Add.</b> Calls up a form to add a material record;</li>
+        <li><img class="g-help-icon" src="<?= $assetsUrl, '/images/icon-delete.svg' ?>" /> <b>Delete.</b> Deletes the selected material records;</li>
+        <li><img class="g-help-icon" src="<?= $themeUrl, '/assets/icons/svg/basic/cleanup.svg' ?>" /> <b>Clear.</b> Deletes all material records;</li>
+        <li><img class="g-help-icon" src="<?= $themeUrl, '/widgets/images/grid/grid-edit.svg' ?>" /> <b>Edit.</b> Calls up a form for editing a material record;</li>
+        <li><img class="g-help-icon" src="<?= $themeUrl, '/widgets/images/grid/grid-select.svg' ?>" /> <b>Select.</b> Selects or deselects a material entry;</li>
+        <li><img class="g-help-icon" src="<?= $themeUrl, '/assets/icons/svg/basic/refresh.svg' ?>" /> <b>Refresh.</b> Refreshes the list of records;</li>
+        <li><img class="g-help-icon" src="<?= $themeUrl, '/widgets/images/grid/grid-profiling-off.svg' ?>" /> <b>Record profiling.</b> Expands and collapses the Navigation Panel to display information for the selected material entry;</li>
+        <li><img class="g-help-icon" src="<?= $themeUrl, '/widgets/images/grid/grid-toggle-columns-off.svg' ?>" /> <b>Show.</b> Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua;</li>
+        <li><img class="g-help-icon" src="<?= $themeUrl, '/assets/icons/svg/basic/help.svg' ?>" /> <b>Help.</b> Calls up the help window for the current list;</li>
+        <li><img class="g-help-icon" src="<?= $themeUrl, '/assets/icons/svg/basic/search.svg' ?>" /> <b>Search.</b> Calls up a form to search for records in a list.</li>
+    </ul>
+</article>

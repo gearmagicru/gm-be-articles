@@ -1,0 +1,60 @@
+<?php
+/**
+ * Страница "Форма добавления / редактирования записи материала".
+ * 
+ * Английская (британская) локализация.
+ * 
+ * Этот файл является частью модуля веб-приложения GearMagic.
+ * 
+ * @copyright Copyright (c) 2015 Веб-студия GearMagic
+ * @license https://gearmagic.ru/license/
+ */
+?>
+<article>
+    <h1>Site material editing form</h1>
+    <div class="g-help-screen g-help-screen--hidable">
+        <img src="<?= $assetsUrl, '/help/form.png' ?>" />
+    </div>
+    <p>The form appears after clicking the <b>"Add"</b> button on the article list toolbar or selecting the <b>"Edit"</b> item from the context menu of the selected article record.</p>
+    <h2>Form tabs</h2>
+    <h3>Form tab "Attributes"</h3>
+    <p>The form tab displays the main attributes of the material and has the following fields:</p>
+    <ul class="g-help-list">
+        <li><b>Language.</b> The language that determines the content of the material. If not specified, the content of the material will be displayed regardless of the selected language;</li>
+        <li><b>Template.</b> Material сontent вisplay еemplate;</li>
+        <li><b>Page template.</b> Template for displaying material on a page;</li>
+        <li><b>Slug type.</b> Defines the rules for forming the URL of the material;</li>
+        <li><b>Slug.</b> This is the name version, the unique part of the URL. It is all lowercase and only Latin letters, numbers and hyphens.;</li>
+        <li><b>Category.</b> Category to which the material belongs;</li>
+        <li><b>Header.</b> Title of the material (article) on the website page;</li>
+        <li><b>Image.</b> Preview image, displayed along with the title and lead of the article;</li>
+        <li><b>Date of publication of the material.</b> The date of publication of the material in the current user's time zone. If the time zone for the current user is not specified, the default time zone is applied (see "Configuration / Regional settings");</li>
+        <li><b>Publish material on the main page of the site.</b> If the checkbox is selected, the content of the material will be displayed on the main page of the site;</li>
+        <li><b>Publish material in sections of the site.</b> If the checkbox is selected, the content of the material will be displayed in sections (categories) of the site;</li>
+        <li><b>Publish material on the site.</b> If the checkbox is selected, the content of the material will be displayed on the site pages.</li>
+    </ul>
+
+    <h3>Form tabы "Announcement"</h3>
+    <p>The form tab has a text editor for the material announcement.<p>
+
+    <h3>Form tabы "Text"</h3>
+    <p>The form tab has a text editor for the material content.<p>
+
+    <h3>Form tab "SEO"</h3>
+    <p>The form layout displays the main attributes of the material indexing and has the following fields:</p>
+    <ul class="g-help-list">
+        <li><b>Name.</b> The title of the material title in the browser tab;</li>
+        <li><b>Keywords.</b> Search engines use to determine the relevance of a link. It is necessary to use only those words that are contained on the page itself, the number of words is no more than ten;</li>
+        <li><b>Description.</b> Used by search engines for indexing, as well as when creating an annotation in the search results. If the tag is missing, search engines display the first line of the document or an excerpt containing keywords in the annotation.</li>
+    </ul>
+
+    <h3>Form tab "Additionally"</h3>
+    <p>The form tab displays additional attributes (specific to a particular type of material) of the material and has the following fields::</p>
+    <ul class="g-help-list">
+        <li><b>Index.</b> The serial number of the material entry in the list. Used to order entries in the list on the site page;</li>
+        <li><b>Number of hits.</b> Number of visits (views) by users of the page with the material;</li>
+        <li><b>Search.</b> The material is included in the search on the site;</li>
+        <li><b>Site map.</b> The sitemap includes a link to the material;</li>
+        <li><b>Caching.</b> Sets caching for the material.</li>
+    </ul>
+</article>

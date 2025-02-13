@@ -1,0 +1,25 @@
+<?php
+/**
+ * Страница "Панель материала".
+ * 
+ * Локализации по умолчанию.
+ * 
+ * Этот файл является частью модуля веб-приложения GearMagic.
+ * 
+ * @copyright Copyright (c) 2015 Веб-студия GearMagic
+ * @license https://gearmagic.ru/license/
+ */
+?>
+<article>
+    <h1>Materials desk</h1>
+    <div class="g-help-screen g-help-screen--hidable">
+        <img src="<?= $assetsUrl, '/help/desk.png' ?>" />
+    </div>
+    <p>The desk contains types of materials (types of articles) of the site (added using the directory (<a href="<?= $url('index', 'extension:gm.be.references.articles') ?>">"Types of materials"</a>). Each type of material corresponds to records with its own set of fields.</p>
+
+    <h2>Toolbar</h2>
+    <ul class="g-help-list">
+        <li><img class="g-help-icon" src="<?= $themeUrl, '/assets/icons/svg/basic/refresh.svg' ?>" /> <b>Refresh.</b> Refresh the Material Panel items;</li>
+        <li><img class="g-help-icon" src="<?= $themeUrl, '/assets/icons/svg/basic/help.svg' ?>" /> <b>Help.</b> Calls up the help information window.</li>
+    </ul>
+</article>
