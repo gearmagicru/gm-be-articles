@@ -3,7 +3,7 @@
 Модуль предназначен для добавления или изменения материала сайта согласно его типу.
 
 ## Скриншот
-<img src="https://github.com/gearmagicru/gm-be-articles/blob/main/assets/help/desk.png?raw=true">
+<img src="https://github.com/gearmagicru/gm-be-articles/blob/master/assets/help/desk.png?raw=true">
 
 ## Установка
 
