@@ -1,0 +1,47 @@
+/*!
+ * Сетка (Grid).
+ * 
+ * Модуль "Материалы сайта".
+ * 
+ * Copyright 2015 Вeб-студия GearMagic
+ * Copyright Anton Tivonenko <anton.tivonenko@gmail.com>
+ * https://gearmagic.ru/license/
+ */
+
+/* Заливка заднего фона сетки (см. идент. viewManager) */
+#gm-articles-grid .x-grid-view {
+    background: url("../images/watermark.svg") no-repeat calc(100% - 25px) calc(100% - 20px);
+    background-size: 100px;
+}
+
+
+/**
+ * Столбцы сетки.
+ */
+/* Значок "Количество посещений" */
+.gm-articles__icon-hits { background-image: url("../images/icon-hits.svg"); }
+/* Значок "Кэширование статьи" */
+.gm-articles__icon-caching { background-image: url("../images/icon-caching.svg"); }
+
+
+/**
+ * Ячейки сетки.
+ */
+/* Вид индексации: google, yandex */
+.gm-articles__grid-cell-google { color: #4285f4; }
+.gm-articles__grid-cell-yandex { color: #f00; }
+
+
+/**
+ * Панель инструментов сетки.
+ */
+ /* Значок "Добавить" */
+.gm-articles__icon-add_large,
+.gm-articles__icon-add_medium,
+.gm-articles__icon-add { background-image: url("../images/icon-add.svg"); }
+.gm-articles__icon-add_small { background-image: url("../images/icon-add_small.svg"); }
+/* Значок "Удалить" */
+.gm-articles__icon-delete_large,
+.gm-articles__icon-delete_medium,
+.gm-articles__icon-delete { background-image: url("../images/icon-delete.svg"); }
+.gm-articles__icon-delete_small { background-image: url("../images/icon-delete_small.svg"); }

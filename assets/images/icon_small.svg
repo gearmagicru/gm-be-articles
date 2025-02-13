@@ -1,0 +1,17 @@
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="16px" height="16px" viewBox="0 0 16 16" enable-background="new 0 0 16 16" xml:space="preserve">
+  <g id="icon">
+    <g>
+      <path d="M3,13.575c0,0.784,0.641,1.425,1.425,1.425H8.2c-0.08,0.08,-0.136,0.136,-0.159,0.159c-0.192,0.192,-0.458,0.341,-0.925,0.341S1.1,15.5,1.1,15.5c-0.331,0,-0.6,-0.269,-0.6,-0.6V3.1c0,-0.331,0.269,-0.6,0.6,-0.6h1.9V13.575z" fill-rule="evenodd" fill="#FFFFFF"/>
+      <path d="M3,3H1.1c-0.055,0,-0.1,0.045,-0.1,0.1v11.8c0,0.055,0.045,0.1,0.1,0.1h3.325H7h1.907l-0.512,0.512c-0.328,0.328,-0.746,0.488,-1.278,0.488H1.1c-0.607,0,-1.1,-0.493,-1.1,-1.1V3.1c0,-0.607,0.493,-1.1,1.1,-1.1h1.9V3z" fill="#6D6E71"/>
+    </g>
+    <g>
+      <path d="M14.9,13.5H5.1c-0.331,0,-0.6,-0.269,-0.6,-0.6V1.1c0,-0.331,0.269,-0.6,0.6,-0.6c0,0,5.55,0,6.017,0s0.733,0.149,0.925,0.341s2.717,2.717,3.034,3.034c0.317,0.317,0.425,0.575,0.425,1.042s0,7.983,0,7.983C15.5,13.231,15.231,13.5,14.9,13.5z" fill-rule="evenodd" fill="#FFFFFF"/>
+      <path d="M15.429,3.521L12.395,0.488C12.067,0.16,11.649,0,11.117,0H5.1c-0.607,0,-1.1,0.493,-1.1,1.1v11.8c0,0.607,0.493,1.1,1.1,1.1h9.8c0.607,0,1.1,-0.493,1.1,-1.1V4.917C16,4.324,15.84,3.933,15.429,3.521zM12,1.507L14.493,4h-2.448c-0.016,-0.009,-0.034,-0.023,-0.045,-0.035V1.507zM14.9,13H5.1c-0.055,0,-0.1,-0.045,-0.1,-0.1V1.1c0,-0.055,0.045,-0.1,0.1,-0.1h5.9v3c0,0.473,0.399,0.867,0.798,0.972c0.051,0.018,0.106,0.027,0.164,0.027H15v7.9C15,12.955,14.955,13,14.9,13z" fill="#6D6E71"/>
+    </g>
+    <line x1="6.5" y1="3.5" x2="9.5" y2="3.5" fill="none" stroke="#B4B4B5" stroke-width="1" stroke-linecap="round" stroke-miterlimit="10" stroke-linejoin="round"/>
+    <line x1="7.5" y1="5.5" x2="9.5" y2="5.5" fill="none" stroke="#B4B4B5" stroke-width="1" stroke-linecap="round" stroke-miterlimit="10" stroke-linejoin="round"/>
+    <line x1="8.5" y1="7.5" x2="13.5" y2="7.5" fill="none" stroke="#B4B4B5" stroke-width="1" stroke-linecap="round" stroke-miterlimit="10" stroke-linejoin="round"/>
+    <line x1="7.5" y1="9.5" x2="12.5" y2="9.5" fill="none" stroke="#B4B4B5" stroke-width="1" stroke-linecap="round" stroke-miterlimit="10" stroke-linejoin="round"/>
+    <line x1="6.5" y1="11.5" x2="11.5" y2="11.5" fill="none" stroke="#B4B4B5" stroke-width="1" stroke-linecap="round" stroke-miterlimit="10" stroke-linejoin="round"/>
+  </g>
+</svg>

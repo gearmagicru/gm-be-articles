@@ -1,0 +1,66 @@
+/*!
+ * Форма (Form).
+ *
+ * Модуль "Материалы сайта".
+ *
+ * Copyright 2015 Вeб-студия GearMagic
+ * Copyright Anton Tivonenko <anton.tivonenko@gmail.com>
+ * https://gearmagic.ru/license/
+ */
+
+/**
+ * Логотипы Yandex, Google.
+ */
+.gm-articles__yandex { color: #808080; }
+.gm-articles__yandex i { font-style: normal; }
+.gm-articles__yandex i:first-child { color: red; }
+.gm-articles__google { color: #4285f4;}
+.gm-articles__google i { font-style: normal; }
+.gm-articles__google i:nth-child(2),
+.gm-articles__google i:nth-child(6){ color: #ea4335; }
+.gm-articles__google i:nth-child(3) { color: #fbbc05; }
+.gm-articles__google i:nth-child(5) { color: #34a853; }
+
+
+/**
+ * Информационное поле (вкладка "SEO").
+ * Ext.form.field.Label.cls = "gm-articles__label-info"
+ */
+.gm-articles__label-info {
+    font: normal 13px/17px "Roboto Condensed", helvetica, arial, verdana, sans-serif;
+    display: block;
+    color: #848282;
+}
+.gm-articles__label-info strong { color: #4e936d; }
+.gm-articles__label-info .x-form-item-label-default { color: #848282; }
+.gm-articles__label-info .x-form-item-label-inner strong { color: #4e936d; }
+.gm-articles__label-info .x-form-cb-label-default span,
+.gm-articles__label-info .x-form-item-label-inner span { color: #333; }
+
+
+/**
+ * Ссылки на ресурсы в информационных полях (вкладка "SEO").
+ * <a class="g-article__link">
+ */
+.gm-articles__link {
+    color: #4D82B8;
+    text-decoration: none;
+}
+.gm-articles__link:hover {
+    color: #538dc9;
+    text-decoration: underline;
+}
+
+
+/**
+ * Панель вкладок формы.
+ * Ext.tab.Panel (tabpanel)
+ */
+/* Значок "Атрибуты статьи" */
+.gm-articles__icon-common { background-image: url("../images/icon-tab-common.svg"); }
+/* Значок "SEO" */
+.gm-articles__icon-seo { background-image: url("../images/icon-tab-seo.svg"); }
+/* Значок "Текст статьи" */
+.gm-articles__icon-text { background-image: url("../images/icon-tab-text.svg"); }
+/* Значок "Дополнительно" */
+.gm-articles__icon-addition { background-image: url("../images/icon-tab-addition.svg"); }
