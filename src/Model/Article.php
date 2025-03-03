@@ -95,4 +95,17 @@ class Article extends \Gm\Site\Data\Model\Article
         }
         return '';
     }
+
+    /**
+     * Удаляет все записи.
+     * 
+     * @throws \Gm\Db\Adapter\Driver\Exception\CommandException Невозможно выполнить инструкцию SQL.
+     */
+    public function deleteAll()
+    {
+        $this->getDb()
+            ->createCommand()
+                ->truncateTable($this->tableName())
+                ->execute();
+    }
 }
